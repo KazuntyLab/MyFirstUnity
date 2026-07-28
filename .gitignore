@@ -1,0 +1,79 @@
+# This .gitignore is for Unity projects.
+# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Asset meta data should be tracked.
+!/[Aa]ssets/**/*.meta
+!/[Pp]ackages/**/*.meta
+
+# Uncomment this line if you wish to ignore the asset store tools plugin
+# [Aa]ssets/AssetStoreTools*
+
+# User-specific files
+/[Uu]ser[Ss]ettings/
+/[Pp]rojectSettings/ProjectSettings.asset
+/[Pp]rojectSettings/EditorBuildSettings.asset
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Visual Studio / Rider / VS Code
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+
+# Unity generated files
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+
+# Crash dumps
+*.dmp
+*.stackdump
+
+# Builds
+*.exe
+*.exe.meta
+*.dll
+*.dll.meta
+*.app
+*.app.meta
+
+# Package manager
+Packages/packages-lock.json
+
+# Recommended to ignore caches and auto-generated project files
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Uncomment for ignoring Asset Store tools if not tracked
+# [Aa]ssets/AssetStoreTools*
