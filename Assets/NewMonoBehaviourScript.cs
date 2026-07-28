@@ -60,6 +60,11 @@ public class NewMonoBehaviourScript : MonoBehaviour
             Debug.Log("n is: " + n);
             n--;
         }
+
+        for (int i = 0; i < 5; i++)
+        {
+            Debug.Log("i is: " + i);
+        }
     }
 
     // Update is called once per frame
